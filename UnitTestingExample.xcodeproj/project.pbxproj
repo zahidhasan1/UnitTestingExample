@@ -16,6 +16,8 @@
 		C02093912A134D1E007AE664 /* UnitTestingExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02093902A134D1E007AE664 /* UnitTestingExampleTests.swift */; };
 		C020939B2A134D1E007AE664 /* UnitTestingExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C020939A2A134D1E007AE664 /* UnitTestingExampleUITests.swift */; };
 		C020939D2A134D1E007AE664 /* UnitTestingExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C020939C2A134D1E007AE664 /* UnitTestingExampleUITestsLaunchTests.swift */; };
+		C02093AA2A135266007AE664 /* Arithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02093A92A135266007AE664 /* Arithmetic.swift */; };
+		C02093AC2A1353AE007AE664 /* ArithmeticTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02093AB2A1353AE007AE664 /* ArithmeticTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		C02093962A134D1E007AE664 /* UnitTestingExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestingExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C020939A2A134D1E007AE664 /* UnitTestingExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingExampleUITests.swift; sourceTree = "<group>"; };
 		C020939C2A134D1E007AE664 /* UnitTestingExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C02093A92A135266007AE664 /* Arithmetic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arithmetic.swift; sourceTree = "<group>"; };
+		C02093AB2A1353AE007AE664 /* ArithmeticTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmeticTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 				C02093822A134D1E007AE664 /* Assets.xcassets */,
 				C02093842A134D1E007AE664 /* LaunchScreen.storyboard */,
 				C02093872A134D1E007AE664 /* Info.plist */,
+				C02093A92A135266007AE664 /* Arithmetic.swift */,
 			);
 			path = UnitTestingExample;
 			sourceTree = "<group>";
@@ -114,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				C02093902A134D1E007AE664 /* UnitTestingExampleTests.swift */,
+				C02093AB2A1353AE007AE664 /* ArithmeticTest.swift */,
 			);
 			path = UnitTestingExampleTests;
 			sourceTree = "<group>";
@@ -259,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C020937E2A134D1C007AE664 /* ViewController.swift in Sources */,
+				C02093AA2A135266007AE664 /* Arithmetic.swift in Sources */,
 				C020937A2A134D1C007AE664 /* AppDelegate.swift in Sources */,
 				C020937C2A134D1C007AE664 /* SceneDelegate.swift in Sources */,
 			);
@@ -269,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C02093912A134D1E007AE664 /* UnitTestingExampleTests.swift in Sources */,
+				C02093AC2A1353AE007AE664 /* ArithmeticTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
